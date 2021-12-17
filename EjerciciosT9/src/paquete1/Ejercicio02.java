@@ -46,7 +46,7 @@ public class Ejercicio02 {
         }
 
         for (int i = 0; i < rangos.length; i++) {
-            System.out.printf("Rango %s - valor %d\n", rangos[i],
+            System.out.printf("Rango %s - valor %d \n", rangos[i],
                     valoresRangos[i]);
         }
 
