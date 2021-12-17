@@ -7,7 +7,7 @@ package paquete1;
  */
 /**
  *
- * @author reroes
+ * @author JonathanCoronel
  */
 public class Ejercicio00 {
 
