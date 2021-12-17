@@ -16,16 +16,16 @@ public class Ejercicio03 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int[] arreglo = {1, 10, 11, 12, 12, 13, 16, 2, 3, 4, 9, 10, 21};
+        double[] arreglo = {1, 10, 11, 12, 12, 13, 16, 2, 3, 4, 9, 10, 21};
         int elementosArribaMedia = 0;
         int elementosAbajoMedia = 0;
         double media;
-        int suma = 0;
+        double suma = 0;
         for (int i = 0; i < arreglo.length; i++) {
             suma = suma + arreglo[i];
         }
         media = suma / arreglo.length;
-        System.out.println("La media es:"+media);
+        System.out.printf("La media es:%.2f\n",media);
         for (int i = 0; i < arreglo.length; i++) {
             if (arreglo[i] > media) {
                 elementosArribaMedia = elementosArribaMedia + 1;
